@@ -1,0 +1,49 @@
+<svg viewBox="0 0 1200 360" width="1200" height="360" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="50%" stop-color="#161b22"/>
+      <stop offset="100%" stop-color="#0d1117"/>
+    </linearGradient>
+    <radialGradient id="glow1" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#58a6ff" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#58a6ff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#a371f7" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#a371f7" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect x="0" y="0" width="1200" height="360" fill="url(#bgGrad)"/>
+
+  <circle cx="200" cy="80" r="180" fill="url(#glow1)"/>
+  <circle cx="1000" cy="280" r="200" fill="url(#glow2)"/>
+
+  <g opacity="0.15" stroke="#58a6ff" stroke-width="1.5" fill="none">
+    <circle cx="150" cy="300" r="60"/>
+    <circle cx="1080" cy="70" r="45"/>
+    <circle cx="1050" cy="150" r="20"/>
+    <line x1="60" y1="60" x2="140" y2="60"/>
+    <line x1="60" y1="60" x2="60" y2="130"/>
+    <line x1="1150" y1="300" x2="1070" y2="300"/>
+    <line x1="1150" y1="300" x2="1150" y2="230"/>
+  </g>
+
+  <g opacity="0.12" stroke="#a371f7" stroke-width="1" fill="none">
+    <path d="M40,180 Q120,140 200,180 T360,180"/>
+    <path d="M840,220 Q920,180 1000,220 T1160,220"/>
+  </g>
+
+  <circle cx="600" cy="60" r="3" fill="#c9d1d9" opacity="0.3"/>
+  <circle cx="700" cy="45" r="2" fill="#c9d1d9" opacity="0.25"/>
+  <circle cx="500" cy="50" r="2" fill="#c9d1d9" opacity="0.25"/>
+
+  <text x="600" y="165" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="60.0" font-weight="600" fill="#ffffff">
+    <tspan x="600" dy="0">Hydra Launcher Update</tspan>
+  </text>
+
+  <text x="600" y="220" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="22.0" fill="#c9d1d9">
+    <tspan x="600" dy="0">Hydra Launcher Update — a lightweight Windows tool.</tspan>
+  </text>
+</svg>
